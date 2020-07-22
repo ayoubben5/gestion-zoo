@@ -32,7 +32,7 @@ class SecteursController{
     $result=Secteurs::add($data);
     if($result === 'ok'){
         Session::Set('success','Success');
-            Redirect::to('addService');
+            Redirect::to('secteur');
     }else{
         echo $result;
     }

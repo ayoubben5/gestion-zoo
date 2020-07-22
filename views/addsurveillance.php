@@ -13,7 +13,7 @@ $newService->addSurvei();
         <div class="col-md-16 mx-auto">
         <?php include('./views/includes/alert.php'); ?>
         <div class="card">
-        <div class="card-header text-center w-15"><h5>Administration</h5></div>
+        <div class="card-header text-center w-15"><h5>Surveillance</h5></div>
             <div class="card-body bg-light">
             <a href="<?php echo BASE_URL ?>home" class="btn btn-sm btn-info mr-2 mb-2 ">
             <i class="fas fa-home"></i>
